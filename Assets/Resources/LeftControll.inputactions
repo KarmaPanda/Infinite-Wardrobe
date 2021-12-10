@@ -1,0 +1,44 @@
+{
+    "name": "LeftControll",
+    "maps": [
+        {
+            "name": "Turn",
+            "id": "c83b8c8c-5aeb-41d5-859c-0b23363104cb",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "b929a966-6bfe-401b-b9c5-b277ca1868d4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "246d6461-34bd-44fb-856a-e0f96553e06b",
+                    "path": "<XRController>{LeftHand}/primary2DAxisTouch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "623902ec-38af-4c33-8d2b-fd09b6d8886b",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
